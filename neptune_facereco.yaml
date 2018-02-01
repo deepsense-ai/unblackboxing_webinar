@@ -1,0 +1,13 @@
+name: Facial Recognition
+description: A convolutional neural network recognizing faces.
+project: Neptune Webinar
+tags: [tensorboard, facereco]
+
+storage: /mnt/ml-team/homes/jakub.czakon/neptune_storage
+
+parameters:
+  - name: x
+    description: Example string parameter.
+    type: string
+    default: default_x
+    required: false

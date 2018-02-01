@@ -1,0 +1,11 @@
+name: Tweet Sentiment
+description: A recurrent neural network for classifying tweets.
+project: Neptune Webinar
+tags: [sentiment, twitter]
+storage: /mnt/ml-team/homes/jakub.czakon/neptune_storage
+parameters:
+  - name: x
+    description: Example string parameter.
+    type: string
+    default: default_x
+    required: false
