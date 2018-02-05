@@ -51,9 +51,15 @@ Download the pretrained glove model from https://nlp.stanford.edu/projects/glove
 
 Specify the filepaths in `read_between_the_tweets.py` and train your twitter model by running:
 ```bash
-python read_between_the_tweets.py
+neptune run read_between_the_tweets.py --config neptune_tweet.yaml
 ```
 
+Specify the filepaths in `see_my_face.py` and train your facial recognition model by running:
+```bash
+neptune run see_my_face.py --config neptune_facereco.yaml
+```
+
+Change the filepaths in notebooks to the same ones you specified in `read_between_the_tweets.py` and `see_my_face.py` .
 
 ## Resources and Acknowledgements
 
