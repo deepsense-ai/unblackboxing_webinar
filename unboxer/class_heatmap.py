@@ -86,4 +86,4 @@ class ClassHeatmap():
                 plt.imshow(img)
                 plt.show()       
 
-        return interact(_plot, label_id='1')
+        return interact(_plot, label_id='352')

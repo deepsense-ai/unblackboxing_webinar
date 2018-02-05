@@ -17,7 +17,7 @@ def arch_lstm(embedding_layer, sequence_length, classes):
     tweetnet = Model(tweet_input, tweet_output)
     tweetnet.compile(optimizer='adam',
                      loss='categorical_crossentropy',
-                     metrics=['accuracy'])    
+                     metrics=['categorical_accuracy'])
     return tweetnet
 
 def arch_conv1d(embedding_layer, sequence_length, classes):    
@@ -32,7 +32,7 @@ def arch_conv1d(embedding_layer, sequence_length, classes):
     tweetnet = Model(tweet_input, tweet_output)
     tweetnet.compile(optimizer='adam',
                      loss='categorical_crossentropy',
-                     metrics=['accuracy'])    
+                     metrics=['categorical_accuracy'])
     return tweetnet
 
 def arch_attention(embedding_layer, sequence_length, classes):    
@@ -55,7 +55,7 @@ def arch_attention(embedding_layer, sequence_length, classes):
     tweetnet = Model(tweet_input, tweet_output)
     tweetnet.compile(optimizer='adam',
                      loss='categorical_crossentropy',
-                     metrics=['accuracy'])    
+                     metrics=['categorical_accuracy'])
     return tweetnet
 
 def arch_attention36(embedding_layer, sequence_length, classes):    
@@ -78,5 +78,5 @@ def arch_attention36(embedding_layer, sequence_length, classes):
     tweetnet = Model(tweet_input, tweet_output)
     tweetnet.compile(optimizer='adam',
                      loss='categorical_crossentropy',
-                     metrics=['accuracy'])    
+                     metrics=['categorical_accuracy'])
     return tweetnet

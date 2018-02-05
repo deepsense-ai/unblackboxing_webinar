@@ -37,7 +37,7 @@ def scatterplot_vis(df, **kwargs):
 
     p = figure(plot_width=plot_width, plot_height=plot_height, 
                toolbar_location = 'right',
-               tools='pan,box_zoom,wheel_zoom,reset,resize')
+               tools='pan,box_zoom,wheel_zoom,reset')
     p.add_tools(hover)
 
     df['label_color'] = df['label'].apply(lambda x: COLOR_PALETTE.as_hex()[int(x)])
@@ -67,7 +67,7 @@ def scatterplot_text(df, **kwargs):
 
     p = figure(plot_width=plot_width, plot_height=plot_height, 
                toolbar_location = 'right',
-               tools='pan,box_zoom,wheel_zoom,reset,resize')
+               tools='pan,box_zoom,wheel_zoom,reset')
     p.add_tools(hover)
 
     df['label_color'] = df['label'].apply(lambda x: COLOR_PALETTE.as_hex()[int(x)])

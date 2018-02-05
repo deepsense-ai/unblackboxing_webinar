@@ -1,4 +1,5 @@
 *.log
 .ipynb_checkpoints
+.idea
 resources/tsne_images_folder
 resources/example_images

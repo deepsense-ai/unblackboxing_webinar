@@ -47,12 +47,6 @@ Download Twitter Sentiment Dataset from http://thinknook.com/wp-content/uploads/
 wget http://thinknook.com/wp-content/uploads/2012/09/Sentiment-Analysis-Dataset.zip
 ```
 
-Run the following preprocessing script with filepaths specified 
-For example:
-```bash
-python preprocess_twitter.py -sf my/path/to/data/Sentiment\ Analysis\ Dataset.csv -df my/path/to/data/tweet_sentiment.csv
-```
-
 Download the pretrained glove model from https://nlp.stanford.edu/projects/glove/ and unpack it to some folder.
 
 Specify the filepaths in `read_between_the_tweets.py` and train your twitter model by running:
