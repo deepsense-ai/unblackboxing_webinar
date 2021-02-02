@@ -2,7 +2,7 @@ attrdict==2.0.0
 attrs==17.4.0
 backports.weakref==1.0rc1
 beautifulsoup4==4.6.0
-bleach==1.5.0
+bleach==3.3.0
 bokeh==0.12.13
 boto==2.48.0
 boto3==1.5.16
