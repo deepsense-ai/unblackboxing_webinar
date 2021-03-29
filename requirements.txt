@@ -79,7 +79,7 @@ psutil==4.3.0
 ptyprocess==0.5.2
 pydot==1.2.3
 pydot-ng==1.0.0
-Pygments==2.2.0
+Pygments==2.7.4
 PyJWT==1.5.2
 pykwalify==1.5.2
 pymongo==3.5.1
