@@ -48,7 +48,7 @@ Keras==2.0.8
 keras-vis==0.4.1
 kitchen==1.2.4
 lime==0.1.1.29
-lxml==4.1.1
+lxml==4.6.3
 Markdown==2.2.0
 MarkupSafe==1.0
 matplotlib==2.1.0
