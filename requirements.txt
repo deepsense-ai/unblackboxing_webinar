@@ -80,7 +80,7 @@ ptyprocess==0.5.2
 pydot==1.2.3
 pydot-ng==1.0.0
 Pygments==2.2.0
-PyJWT==1.5.2
+PyJWT==2.4.0
 pykwalify==1.5.2
 pymongo==3.5.1
 pyparsing==2.2.0
