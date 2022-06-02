@@ -28,7 +28,7 @@ GitPython==2.0.8
 glove-python==0.1.0
 graphviz==0.8.2
 h5py==2.7.1
-html5lib==0.9999999
+html5lib==0.99999999
 humanize==0.5.1
 imgaug==0.2.5
 ipykernel==4.6.1
