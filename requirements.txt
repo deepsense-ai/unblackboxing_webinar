@@ -61,7 +61,7 @@ nbformat==4.4.0
 neptune-cli==2.5.1
 networkx==2.0
 notebook==5.2.2
-numpy==1.13.3
+numpy==1.22.0
 oauthlib==2.0.6
 olefile==0.44
 opencv-python==3.3.0.10
